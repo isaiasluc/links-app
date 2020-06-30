@@ -12,6 +12,7 @@ const generateJwt = (payload) => {
 }
 
 const generateRefreshJwt = (payload) => {
+    console.log('generateRefreshJwt', payload);
     return jwt.sign(payload, refreshTokenPrivateKey, refreshOptions);
 }
 
