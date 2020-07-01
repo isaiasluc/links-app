@@ -7,7 +7,7 @@ import signUpReducer from './screens/SignUp/SignUpReducer';
 
 const reducers = combineReducers({
     signIn: signInReducer,
-    signUp: signInReducer,
+    signUp: signUpReducer,
 });
 
 const store = createStore(reducers, applyMiddleware(ReduxPromise));
