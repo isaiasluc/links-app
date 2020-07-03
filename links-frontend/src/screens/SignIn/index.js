@@ -18,8 +18,6 @@ const SignIn = (props) => {
         signIn(data);
     }
 
-    console.log('*** SignIn.account', account);
-
     return (
         <div className="container h-100 pt-5">
             <h1>Sign In</h1>
